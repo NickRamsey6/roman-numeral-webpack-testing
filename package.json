@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --mode development",
     "start": "npm run build; webpack-dev-server --open --mode development",
-    "lint": "eslint src/*js"
+    "lint": "eslint src/*js",
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
+    "karma-chrome-launcher": "^2.2.0",
     "popper.js": "^1.15.0",
     "webpack": "^4.19.1"
   },
@@ -31,6 +33,10 @@
     "eslint": "^4.18.2",
     "eslint-loader": "^2.0.0",
     "html-webpack-plugin": "^3.0.6",
+    "jasmine": "^3.1.0",
+    "jasmine-core": "^2.99.0",
+    "karma": "^2.0.0",
+    "karma-jasmine": "^1.1.1",
     "style-loader": "^0.20.2",
     "uglifyjs-webpack-plugin": "^1.2.2",
     "webpack-cli": "^2.0.9",
