@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/FatherofDharma/Roman-Numeral-Converter#readme",
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
     "webpack": "^4.19.1"
   },
   "devDependencies": {

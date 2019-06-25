@@ -1,5 +1,7 @@
 import {convertRomans} from './scripts.js';
 import './styles.css';
+import $ from 'jquery';
+import 'bootstrap';
 
 //User Interface Logic Section
 $(document).ready(function() {
