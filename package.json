@@ -1,0 +1,36 @@
+{
+  "name": "Roman-Numeral-Converter",
+  "version": "1.0.0",
+  "description": "#### _A webpage that takes a sentence as input from the user and returns it in pig latin. Created June 13, 2019._",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "npm run build; webpack-dev-server --open --mode development",
+    "lint": "eslint src/*js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FatherofDharma/Roman-Numeral-Converter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FatherofDharma/Roman-Numeral-Converter/issues"
+  },
+  "homepage": "https://github.com/FatherofDharma/Roman-Numeral-Converter#readme",
+  "dependencies": {
+    "webpack": "^4.19.1"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.18",
+    "css-loader": "^0.28.10",
+    "eslint": "^4.18.2",
+    "eslint-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.0.6",
+    "style-loader": "^0.20.2",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack-cli": "^2.0.9",
+    "webpack-dev-server": "^3.1.0"
+  }
+}
